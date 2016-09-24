@@ -7,7 +7,6 @@
 # Distributed under terms of the MIT license.
 
 from flask import Flask,redirect
-from flask import render_template
 
 app = Flask(__name__)
 app.secret_key = 'ieee_ut_harambe'
