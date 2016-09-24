@@ -17,7 +17,7 @@ def Home():
 
 @app.route('/<shortlink_query>')
 def RedirectShortLink(shortlink_query=None):
-  return redirect('http://goto.kirmani.io' + shortlink_query)
+  return redirect('http://goto.kirmani.io/' + shortlink_query)
 
 if __name__ == '__main__':
   port = int(os.environ.get('PORT', 33507))
